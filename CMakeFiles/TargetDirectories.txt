@@ -1,0 +1,3 @@
+/home/g15/桌面/rocos-main/Controller/CMakeFiles/Controller.dir
+/home/g15/桌面/rocos-main/Controller/CMakeFiles/edit_cache.dir
+/home/g15/桌面/rocos-main/Controller/CMakeFiles/rebuild_cache.dir
