@@ -215,7 +215,6 @@ ApplicationWindow{
                             {
                                 simulation.socketConnect();
                             }
-                            timer.start();
                             serial.openSerialPort();
                             serial.sendStartPacket();
                         }

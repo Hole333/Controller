@@ -14,7 +14,7 @@ HEADERS += \
     $$PWD/src/radiopacket.h \
     $$PWD/src/serialobject.h \
     $$PWD/src/singleton.hpp \
-    $$PWD/src/lib/crc/crc.h \
+    $$PWD/src/crc.h \
     $$PWD/src/translation.hpp \
     src/simulation.h
 
@@ -23,7 +23,7 @@ SOURCES += \
     $$PWD/src/main.cpp \
     $$PWD/src/radiopacket.cpp \
     $$PWD/src/serialobject.cpp \
-    $$PWD/src/lib/crc/crc.cpp \
+    $$PWD/src/crc.cpp \
     src/simulation.cpp
 
 TRANSLATIONS = t1_zh.ts
