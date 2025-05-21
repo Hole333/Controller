@@ -89,6 +89,10 @@ CMakeLists.txt.user*
 # Protocal Buffer
 *.pb.h
 *.pb.cc
+!zss_cmd.pb.h
+!zss_cmd.pb.cc
+!zss_cmd_type.pb.h
+!zss_cmd_type.pb.cc
 
 # VS Code
 .vscode
