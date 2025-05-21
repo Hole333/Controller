@@ -93,6 +93,8 @@ CMakeLists.txt.user*
 !zss_cmd.pb.cc
 !zss_cmd_type.pb.h
 !zss_cmd_type.pb.cc
+!grSim_Commands.pb.h
+!grSim_Commands.pb.cc
 
 # VS Code
 .vscode
