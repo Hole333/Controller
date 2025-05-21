@@ -11,10 +11,12 @@ class GrSim_Client_Example : public QObject {
   void setPortAndAddress(int port, const QString& address);
   void sendCommand(double velX, int id);
   void DEBUGsendCommandV2(bool side, int robotID,int velX,int velY,int velR,bool ctrl,int ctrlLevel,bool mode,bool shoot,int power);
+  void DEBUGsendCommandV3(bool side, int robotID,int velX,int velY,int velR,bool ctrl,int ctrlLevel,bool mode,bool shoot,int power);
   void disconnectUDP(void);
   void reconnectUDP(void);
   QHostAddress _addr;
   quint16 _port;
+  // friend class Robot_Command;
 
  signals:
 

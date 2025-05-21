@@ -73,7 +73,7 @@ QStringList Simulation::getSidesSetting(void)
 
 void Simulation::sendCommand(void)
 {
-    this->grSimClient.DEBUGsendCommandV2(this->side, this->robotID, this->velX,
+    this->grSimClient.DEBUGsendCommandV3(this->side, this->robotID, this->velX,
                                          -(this->velY), -(int)(((float)this->velR)/10.0f), this->ctrl, this->ctrlPowerLevel,
                                          this->shootMode, this->shoot, (int)(((float)this->shootPowerLevel / 127.0f) * 10.0f));
 }
