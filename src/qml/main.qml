@@ -423,7 +423,7 @@ ApplicationWindow{
                             // DEBUG SIMULATION
                             if (window.useSimulation)
                             {
-                                simulation.updateCommandParams(crazyShow.robotID,crazyShow.velX,crazyShow.velY,crazyShow.velR,crazyShow.dribble,crazyShow.dribbleLevel,crazyShow.mode,crazyShow.shoot,crazyShow.power);
+                                simulation.updateCommandParams(crazyShow.robotID,crazyShow.velX,0,crazyShow.velR,crazyShow.dribble,crazyShow.dribbleLevel,crazyShow.mode,crazyShow.shoot,crazyShow.power);
                             }
                             // simulation.test(window.useSimulation);
                             serial.updateCommandParams(crazyShow.robotID,crazyShow.velX,0,crazyShow.velR,crazyShow.dribble,crazyShow.dribbleLevel,crazyShow.mode,crazyShow.shoot,crazyShow.power);
