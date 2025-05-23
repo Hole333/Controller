@@ -111,7 +111,14 @@ void GrSim_Client_Example::DEBUGsendCommandV3(bool side, int robotID, int velX, 
     command->set_kick_mode(ZSS::New::Robot_Command_KickMode_NONE);//bushemen
     command->set_desire_power(0.0);
   }
-  command->set_dribble_spin(0.0);
+  if (ctrl)
+  {
+    command->set_dribble_spin(10.0);
+  }
+  else
+  {
+    command->set_dribble_spin(0.0);
+  }
 
   // 序列化并发送
   QByteArray dgram;
