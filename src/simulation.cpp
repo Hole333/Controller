@@ -73,6 +73,23 @@ QStringList Simulation::getSidesSetting(void)
 
 void Simulation::sendCommand(void)
 {
+    float speed = 0.0f;
+    float sigmod = this->velX / 180.0f;
+    if (this->velX < 180)
+    {
+        speed = this->velX * sigmod;
+    }
+    else if (this->velX > 180)
+    {
+        speed = this->velX * sigmod;
+    }
+    else
+    {
+        speed = this->velX * sigmod;
+    }
+
+    
+    float speed = this->velX * sigmod; 
     this->grSimClient.DEBUGsendCommandV3(this->side, this->robotID, this->velX,
                                          -(this->velY), -(int)(((float)this->velR)/10.0f), this->ctrl, this->ctrlPowerLevel,
                                          this->shootMode, this->shoot, (int)(((float)this->shootPowerLevel / 127.0f) * 10.0f));
