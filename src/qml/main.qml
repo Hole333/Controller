@@ -245,9 +245,9 @@ ApplicationWindow{
                         property bool dribble : false;//Dribb
                         property bool rush : false;//Rush
 
-                        property int velXStep : 20;//VxStep
-                        property int velYStep : 20;//VyStep
-                        property int velRStep : 20;//VrStep
+                        property int velXStep : 1;//VxStep
+                        property int velYStep : 1;//VyStep
+                        property int velRStep : 1;//VrStep
                         property bool mode : false;//KickMode
                         property int dribbleLevel : 2;//DribLevel
                         property int rushSpeed : 20;//RushSpeed
